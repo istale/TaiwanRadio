@@ -1,0 +1,66 @@
+﻿html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.webWrapper {
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 140px;
+    /*background-color: aqua;*/
+    display: none;
+}
+#adfbWrapper {
+    position: absolute;
+    bottom: 80px;
+    height: 50px;
+    left: 0;
+    right: 0;
+}
+#ad_up {
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/ad_up.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#fb {
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/arthurlink_up.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    left: 0;
+    right: 0;
+    /*background-color: rgba(0, 0, 0, 0.58);*/
+}
+
+#btnPause {
+    width: 70px;
+    height: 70px;
+    background-image: url('../images/ic_pause.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#btnPlay {
+    width: 70px;
+    height: 70px;
+    background-image: url('../images/ic_play.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

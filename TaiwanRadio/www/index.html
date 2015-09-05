@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+
+    <!--
+        視需要在下方的中繼標籤中自訂內容安全性原則。將 'unsafe-inline' 加入 default-src 以啟用內嵌 JavaScript。
+        如需詳細資料，請參閱 http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <title>TaiwanRadio</title>
+
+    <!-- TaiwanRadio 參考 -->
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+    <!--<button id="play">Play</button>
+    <button id="stop">Stop</button>-->
+
+    <div class="webWrapper">
+        <iframe id="web" src="http://ad.ckb.tw/ad/index.php?x=3" sandbox="allow-scripts allow-same-origin allow-popups" frameborder="0" style="width: 100%; height: 100%;"></iframe>
+    </div>
+    <div id="adfbWrapper">
+        <table style="margin:0 auto;">
+            <col width="100">
+            <col width="100">
+            <tr>
+                <td style="text-align:center">
+                    <div id="ad_up"></div>
+                </td>
+                <td style="text-align:center">
+                    <div id="fb"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="footer">
+        <table style="margin:0 auto;">
+            <col width="100">
+            <col width="100">
+            <tr>
+                <td>
+                    <div id="btnPause"></div>
+                </td>
+                <td>
+                    <div id="btnPlay"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div style="display: none;">
+        <iframe id="player" src="http://hichannel.hinet.net/radio/index.do?id=1479" sandbox="allow-scripts allow-same-origin allow-popups" frameborder="0" style="width: 100%; height: 800px;"></iframe>
+    </div>
+
+    
+    <!-- Cordova 參考，建置後會加入您的應用程式。 -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
