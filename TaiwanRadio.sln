@@ -49,9 +49,9 @@ Global
 		{56B702E9-0A4F-42BF-A13A-4CA1C5A64312}.Debug|Windows-x86.ActiveCfg = Debug|Windows-x86
 		{56B702E9-0A4F-42BF-A13A-4CA1C5A64312}.Debug|Windows-x86.Build.0 = Debug|Windows-x86
 		{56B702E9-0A4F-42BF-A13A-4CA1C5A64312}.Debug|Windows-x86.Deploy.0 = Debug|Windows-x86
-		{56B702E9-0A4F-42BF-A13A-4CA1C5A64312}.Release|Android.ActiveCfg = Release|Android
-		{56B702E9-0A4F-42BF-A13A-4CA1C5A64312}.Release|Android.Build.0 = Release|Android
-		{56B702E9-0A4F-42BF-A13A-4CA1C5A64312}.Release|Android.Deploy.0 = Release|Android
+		{56B702E9-0A4F-42BF-A13A-4CA1C5A64312}.Release|Android.ActiveCfg = Debug|Android
+		{56B702E9-0A4F-42BF-A13A-4CA1C5A64312}.Release|Android.Build.0 = Debug|Android
+		{56B702E9-0A4F-42BF-A13A-4CA1C5A64312}.Release|Android.Deploy.0 = Debug|Android
 		{56B702E9-0A4F-42BF-A13A-4CA1C5A64312}.Release|iOS.ActiveCfg = Release|iOS
 		{56B702E9-0A4F-42BF-A13A-4CA1C5A64312}.Release|iOS.Build.0 = Release|iOS
 		{56B702E9-0A4F-42BF-A13A-4CA1C5A64312}.Release|iOS.Deploy.0 = Release|iOS

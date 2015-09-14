@@ -64,3 +64,26 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+/*讀取畫面*/
+.loading {
+    background-color: rgba(0, 0, 0, 0.50);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    text-align: center;
+    color: #eee;
+    font-size: 24px;
+    font-weight: 700;
+    display: none;
+}
+
+    .loading img {
+        width: 30px;
+        margin: 60% auto 10px auto;
+    }
