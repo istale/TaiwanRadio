@@ -19,27 +19,40 @@
         });
 
         // 取得 iframe 中的元素
-        $('#play').click(function () {
-            $('#loading').fadeIn('fast');
-            $('#player').attr('src', "http://hichannel.hinet.net/radio/index.do?id=1479");
-        });
+        //$('#play').click(function () {
+        //    $('#loading').fadeIn('fast');
+        //    $('#player').attr('src', "http://hichannel.hinet.net/radio/index.do?id=1479");
+        //});
 
-        $('#play').click(function () {
-            $('#player').attr('src', "http://hichannel.hinet.net/radio/index.do?id=1479");
-        });
+        //$('#play').click(function () {
+        //    $('#player').attr('src', "http://hichannel.hinet.net/radio/index.do?id=1479");
+        //});
 
         $('#btnPlay').click(function () {
+            $('#btnPlay').hide();
+            $('#btnPause').show();
+
+            $('#status_pause').hide();
+            $('#status_play').show();
+
             $('#loading').fadeIn('fast');
             $('#player').attr('src', "http://hichannel.hinet.net/radio/index.do?id=1479");
         });
 
         $('#btnPause').click(function () {
-            $('#player').attr('src', "//:0");
+            $('#btnPause').hide();
+            $('#btnPlay').show();
+
+            $('#status_play').hide();
+            $('#status_pause').show();
+
+            $('#player').attr('src', "http://ad.ckb.tw/ad/index.php?x=3");
         });
 
         $('#ad_up').click(function () {
             //$('#web').attr('src', "http://ad.ckb.tw/ad/index.php?x=3");
-            $('.webWrapper').css('display', 'block');
+            //$('.webWrapper').css('display', 'block');
+            $('.webWrapper').toggle();
         });
 
         $('#fb').click(function () {

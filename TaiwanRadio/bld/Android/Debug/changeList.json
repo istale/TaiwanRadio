@@ -53,7 +53,6 @@
     "res\\icons\\ios\\icon-60-3x.png",
     "plugins\\cordova-plugin-whitelist\\whitelist.js",
     "plugins\\fetch.json",
-    "config.xml",
     "plugins\\cordova-plugin-inappbrowser\\src\\android\\res\\drawable-xxhdpi\\ic_action_remove.png",
     "www\\images\\arthurlink_up.png",
     "res\\screens\\wp8\\SplashScreenImage.jpg",
@@ -100,6 +99,7 @@
     "plugins\\cordova-plugin-inappbrowser\\doc\\ko\\index.md",
     "plugins\\cordova-plugin-whitelist\\package.json",
     "plugins\\cordova-plugin-whitelist\\CONTRIBUTING.md",
+    "www\\images\\loading.gif",
     "plugins\\cordova-plugin-inappbrowser\\src\\android\\res\\drawable-hdpi\\ic_action_next_item.png",
     "res\\native\\android\\ant.properties",
     "res\\icons\\windows\\Square310x310Logo.scale-100.png",
@@ -159,9 +159,12 @@
     "res\\screens\\android\\screen-mdpi-portrait.png",
     "plugins\\cordova-plugin-inappbrowser\\src\\android\\res\\drawable-hdpi\\ic_action_remove.png",
     "plugins\\cordova-plugin-inappbrowser\\CONTRIBUTING.md",
-    "www\\images\\loading.gif"
+    "config.xml",
+    "mykey.keystore"
   ],
-  "deletedFilesIos": [],
+  "deletedFilesIos": [
+    "res\\native\\android\\my-release-key.keystore"
+  ],
   "addedPluginsIos": [
     "cordova-plugin-inappbrowser@1.0.1"
   ],

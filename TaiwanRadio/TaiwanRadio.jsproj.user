@@ -8,7 +8,7 @@
     <ReferenceCachePath>C:\Users\cdit\AppData\Local\Temp\TaiwanRadio_refcache</ReferenceCachePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android'">
-    <DebuggerFlavor>RippleNexus7</DebuggerFlavor>
-    <AndroidEmulatorID>AndroidEmulator;Google Android 模擬器</AndroidEmulatorID>
+    <DebuggerFlavor>AndroidEmulator</DebuggerFlavor>
+    <AndroidEmulatorID>AndroidDevice;裝置</AndroidEmulatorID>
   </PropertyGroup>
 </Project>

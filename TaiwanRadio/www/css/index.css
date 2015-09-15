@@ -13,13 +13,13 @@ body {
     top: 0;
     left:0;
     right: 0;
-    bottom: 140px;
+    bottom: 80px;
     /*background-color: aqua;*/
-    display: none;
+    /*display: none;*/
 }
 #adfbWrapper {
     position: absolute;
-    bottom: 80px;
+    bottom: 65px;
     height: 50px;
     left: 0;
     right: 0;
@@ -30,14 +30,19 @@ body {
     background-image: url('../images/ad_up.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin: 0 auto;
 }
 
 #fb {
-    width: 30px;
-    height: 30px;
+    position: absolute;
+    left: 80px;
+    bottom: 18px;
+    width: 50px;
+    height: 50px;
     background-image: url('../images/arthurlink_up.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin: 0 auto;
 }
 
 #footer {
@@ -50,20 +55,51 @@ body {
 }
 
 #btnPause {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
     width: 70px;
     height: 70px;
     background-image: url('../images/ic_pause.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    display: block;
 }
 
 #btnPlay {
+     position: absolute;
+    left: 5px;
+    bottom: 5px;
     width: 70px;
     height: 70px;
     background-image: url('../images/ic_play.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    display: none;
+
 }
+
+
+#status_play {
+    color: white;
+    font-family: '正黑體';
+    font-size: 14px;
+    position: absolute;
+    left: 150px;
+    bottom: 33px;
+    display: block;
+}
+
+#status_pause {
+    color: white;
+    font-family: '正黑體';
+    font-size: 14px;
+    position: absolute;
+    left: 150px;
+    bottom: 25px;
+    display: none;
+}
+
 
 /*讀取畫面*/
 .loading {
